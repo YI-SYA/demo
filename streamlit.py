@@ -13,6 +13,9 @@ if choice == 'Profile':#welcome
         st.header("Helloo !!!!!")
         st.title("my name is Muhyiddin Syarif")
         st.write("I'm Data Science progammer from Indonesia")
+    st.write("---")
+    with st.container():
+        
 
 
 # Project
