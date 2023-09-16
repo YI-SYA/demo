@@ -4,7 +4,7 @@ st.set_page_config(page_title="Yi SYA galery", page_icon='👨‍🔧')
 
 st.markdown("### 👨‍🔧 Welcome !!!!")
 
-st.image("https://pbs.twimg.com/media/FmmYA2YWYAApPRB.png")
+st.image("https://www.freepik.com/free-vector/illustration-data-analysis-graph_2807756.htm#query=data%20science&position=2&from_view=keyword&track=ais")
 
 st.info("Original Course Repository on [Github](https://github.com/DataTalksClub/data-engineering-zoomcamp)")
 
