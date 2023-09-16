@@ -10,8 +10,8 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 # My Profile
 if choice == 'Profile':#welcome
     with st.container():
-        st.header("Helloo !!!!!")
-        st.title("my name is Muhyiddin Syarif")
+        st.title("Helloo, Welcome to My Profile")
+        st.header("my name is Muhyiddin Syarif")
         st.write("I'm Data Science progammer from Indonesia")
     st.write("---")
     with st.container():
