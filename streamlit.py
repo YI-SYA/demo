@@ -20,11 +20,16 @@ if choice == 'Profile':#welcome
     with st.container():
         st.write("")
     with st.container():
-        st.header(':red[List of Project]')
-        st.subheader('- Prediksi listrik yang dihasilkan PLTU')
-        st.subheader('- Prediksi Nilai Unburn Carbon Batubara PLTU')
-        st.subheader(' ')
-        st.caption(':red[*klik pada side bar untuk melihat project]')
+        tab1, tab2 = st.tabs(["List of Project", "My Profile"])
+        with tab1:
+            st.header(':red[List of Project]')
+            st.subheader('- Prediksi listrik yang dihasilkan PLTU')
+            st.subheader('- Prediksi Nilai Unburn Carbon Batubara PLTU')
+            st.subheader(' ')
+            st.caption(':red[*klik pada side bar untuk melihat project]')
+        with tab2:
+            st.header(':red[My Profile]')
+        
 
     #contact container
     with st.container():
