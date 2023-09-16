@@ -20,7 +20,7 @@ if choice == 'Profile':#welcome
     with st.container():
         st.write("")
     with st.container():
-        st.header(':red[List of Project]', divider='rainbow')
+        st.header(':red[List of Project]')
 
     #contact container
     with st.container():
