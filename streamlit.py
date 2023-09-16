@@ -21,6 +21,7 @@ if choice == 'Profile':#welcome
         st.write("")
     with st.container():
         st.header(':red[List of Project]')
+        st.caption(':red[*klik pada side bar untuk melihat project]')
 
     #contact container
     with st.container():
