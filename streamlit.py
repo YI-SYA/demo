@@ -24,7 +24,7 @@ elif choice == 'Project':
     st.header("Prediksi Unburn Carbon Batubara PLTU")\
 
     with st.container():
-        st.image("https://img.freepik.com/free-vector/flat-design-carbon-neutral-illustration_23-2149391470.jpg?w=740&t=st=1694833245~exp=1694833845~hmac=6e73bc560256c4ab783fa273398a313e5f897cc05160b1d8add8b8ada41acf9d")
+        st.image("https://img.freepik.com/free-vector/industrial-factory-power-plant-illustration-facility-with-chimneys-producing-smoke-heavy-chemicals-global-warming-air-pollution-problem_575670-468.jpg?w=1060&t=st=1694833359~exp=1694833959~hmac=52b8bac1675c817649c0983bd16d9927994ba0dfa80022222b1de357954719fc")
     with st.container():
         var1, var2 = st.columns(2)
         with var1:
