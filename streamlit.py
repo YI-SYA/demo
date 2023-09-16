@@ -7,7 +7,7 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 
 #My Profile
 if choice == 'Profile':
-    st.header("Welcome !!!")
+    st.header("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!</h1>", unsafe_allow_html=True")
 
 
 #Project
