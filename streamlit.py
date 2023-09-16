@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Yi SYA galery", page_icon='👨‍🔧')
 
-st.markdown("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!")
+st.write("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!")
 
 st.image("https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18131.jpg?w=1060&t=st=1694825221~exp=1694825821~hmac=7be6aa9b22465a49079e1f5d527196edd0f9e259c463f33f431268cb141bf48a")
 
