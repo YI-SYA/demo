@@ -15,7 +15,8 @@ if choice == 'Profile':
 # Project
 elif choice == 'Project':
     st.header("Project !!!")
-    model = pickle.load(open('unburn_carbon.sav', 'rb'))
+    
+    #model = pickle.load(open('unburn_carbon.sav', 'rb'))
 
     st.title('Prediksi Unburn Carbon')
 
