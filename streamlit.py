@@ -21,9 +21,11 @@ if choice == 'Profile':#welcome
 
 # Project
 elif choice == 'Project':
-    st.header("Prediksi Unburn Carbon")
+    st.header("Prediksi Unburn Carbon Batubara PLTU")\
+    st.write("---")
     with st.container():
-        
+        st.image("https://img.freepik.com/premium-vector/coal-heaps-coals-isolated_69367-58.jpg?w=740")
+    with st.container():
         var1, var2 = st.columns(2)
         with var1:
             nilai_kalor = st.number_input('Input nilai kalor (kcal/kg) ')
