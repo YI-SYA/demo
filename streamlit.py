@@ -18,7 +18,7 @@ st.write("""
 ## 📄 My Name is Muhyiddin Syarif
 
 
-##### <a>I am Data Scientist from Indonesia</a>
+## <a>I am Data Scientist from Indonesia</a>
 
 ---
 
