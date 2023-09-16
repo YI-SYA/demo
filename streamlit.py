@@ -1,7 +1,12 @@
 import streamlit as st
 
+#create sidebar
+menu = ['Profile','Project']
+choice = st.sidebar.selectbox("Select a Page", menu)
 
 
+#My Profile
+if choice == 'Profile':
 
 st.set_page_config(page_title="Yi SYA galery", page_icon='👨‍🔧')
 
@@ -9,7 +14,7 @@ st.write("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!</h1>", unsaf
 
 st.image("https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18131.jpg?w=1060&t=st=1694825221~exp=1694825821~hmac=7be6aa9b22465a49079e1f5d527196edd0f9e259c463f33f431268cb141bf48a")
 
-st.info("My [Github](https://github.com/YI-SYA)")
+st.info("Here is My [Github](https://github.com/YI-SYA)")
 
 st.markdown("---")
 
