@@ -1,4 +1,15 @@
 import streamlit as st
+# Definisikan kode CSS untuk mengubah latar belakang
+css = """
+<style>
+body {
+    background-color: EBE4D1; /* Ganti dengan warna latar belakang yang Anda inginkan */
+}
+</style>
+"""
+
+# Tambahkan kode CSS ke aplikasi
+st.write(css, unsafe_allow_html=True)
 
 st.set_page_config(page_title="Yi SYA galery", page_icon='👨‍🔧')
 
