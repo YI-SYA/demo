@@ -11,7 +11,7 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 if choice == 'Profile':#welcome
     with st.container():
         st.title("Helloo, Welcome to My Profile")
-        st.header("my name is Muhyiddin Syarif")
+        st.header("my name is _Muhyiddin Syarif_ :F39F5A")
         st.write("I'm Data Science progammer from Indonesia")
     st.write("---")
     with st.container():
@@ -22,7 +22,7 @@ if choice == 'Profile':#welcome
     with st.container():
         st.header("List of Project")
         st.markdown(
-        :pushpin: "Here is a test")
+        '''Happy Streamlit-ing! :balloon:'''")
     #contact container
     with st.container():
         st.write("---")
