@@ -22,7 +22,7 @@ if choice == 'Profile':#welcome
 # Project
 elif choice == 'Project':
     st.header("Prediksi Unburn Carbon Batubara PLTU")\
-    st.write("---")
+
     with st.container():
         st.image("https://img.freepik.com/premium-vector/coal-heaps-coals-isolated_69367-58.jpg?w=740")
     with st.container():
