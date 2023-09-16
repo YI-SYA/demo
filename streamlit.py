@@ -21,9 +21,8 @@ if choice == 'Profile':#welcome
         st.write("")
     with st.container():
         st.header("List of Project")
-        st.write("""
-        - Prediksi Listrik yang dihasilkan PLTU
-        - Prediksi Unburn Carbon Batubara PLTU""")
+        st.markdown(
+        :pushpin: "Here is a test")
     #contact container
     with st.container():
         st.write("---")
