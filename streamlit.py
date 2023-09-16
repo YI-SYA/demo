@@ -1,40 +1,18 @@
 import streamlit as st
 
-css = """
-<style>
-body {
-    background-color: EBE4D1; /* Ganti dengan warna latar belakang yang Anda inginkan */
-}
-</style>
-"""
 
 
-st.write(css, unsafe_allow_html=True)
 
 st.set_page_config(page_title="Yi SYA galery", page_icon='👨‍🔧')
 
-st.write("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!</h1>")
+st.write("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!</h1>", unsafe_allow_html=True)
 
 st.image("https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18131.jpg?w=1060&t=st=1694825221~exp=1694825821~hmac=7be6aa9b22465a49079e1f5d527196edd0f9e259c463f33f431268cb141bf48a")
 
-st.info("Original Course Repository on [Github](https://github.com/DataTalksClub/data-engineering-zoomcamp)")
+st.info("My [Github](https://github.com/YI-SYA)")
 
 st.markdown("---")
 
-with st.expander("Sign up here"):
-    st.markdown("""
-    
-    <a href="https://airtable.com/shr6oVXeQvSI5HuWD"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
-
-    #
-
-    - Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
-    - Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel
-    - Join the [course Telegram channel with announcements](https://t.me/dezoomcamp)
-    - The videos are published on [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
-    - [Frequently asked technical questions](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing)
-        
-    #""", unsafe_allow_html=True)
 
 st.markdown("""
 ## 📄 My Name is Muhyiddin Syarif
