@@ -8,9 +8,6 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 #My Profile
 if choice == 'Profile':
 
-#My Profile
-if choice == 'Profile':
-
     st.set_page_config(page_title="Yi SYA galery", page_icon='👨‍🔧')
 
     st.write("<h1 style='font-size: 36px;'>### 👨‍🔧 Welcome !!!!</h1>", unsafe_allow_html=True)
