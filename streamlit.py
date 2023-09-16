@@ -23,7 +23,7 @@ if choice == 'Profile':#welcome
 elif choice == 'Project':
     st.header("Prediksi Unburn Carbon")
     with st.container():
-        st.write("---")
+        
         var1, var2 = st.columns(2)
         with var1:
             nilai_kalor = st.number_input('Input nilai kalor (kcal/kg) ')
@@ -36,8 +36,8 @@ elif choice == 'Project':
             o2 = st.number_input('Input O2 Outlet APH  (%) ')
             fuel_temp = st.number_input('Input fuel temperature (C) ')
             sa_flow = st.number_input('Secondary Air (T/H) ')
-            carbon = st.number_input('Input carbon (%) ')
         with var2:
+            carbon = st.number_input('Input carbon (%) ')
             hydrogen = st.number_input('Input Hydrogen (%) ')
             nitrogen = st.number_input('Input nitrogen (%) ')
             sulfur = st.number_input('Input Sulfur (%) ')
@@ -47,6 +47,7 @@ elif choice == 'Project':
             surface_moisture = st.number_input('input surface_moisturer (%) ')
             inherent_moisture = st.number_input('Input inherent_moisture (%) ')
             predict = ''
+    st.write("---")
     with st.container():
         if st.button('Estimasi hasil Unburn Carbon'):
             predict = model.predict(
