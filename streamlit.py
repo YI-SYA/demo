@@ -24,6 +24,23 @@ if choice == 'Profile':#welcome
         st.write("""
         - Prediksi Listrik yang dihasilkan PLTU
         - Prediksi Unburn Carbon Batubara PLTU""")
+    #contact container
+    with st.container():
+        st.write("---")
+        st.header("Contact Me")
+        email,whatsapp,instragram,facebook = st.columns(4)
+        with email:
+            st.write("my email")
+            st.write("test@gmail.com")
+        with whatsapp:
+            st.write("my whatsapp")
+            st.write("test")
+        with instragram:
+            st.write("my Instagram")
+            st.markdown("[My instagram](https:www.instagram.com)")
+        with facebook:
+            st.write('my facebook')
+            st.markdown("[my facebook](https:www.facebook.com)")
         
 
 
