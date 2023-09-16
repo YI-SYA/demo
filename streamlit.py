@@ -1,12 +1,5 @@
 import streamlit as st
 
-#model = pickle.load(open('unburn_carbon.sav', 'rb'))
-predict = model.predict(
-            [[nilai_kalor, co, co2, out_generator, sfc, eco_gas_out_temp, pa_flow, o2, fuel_temp, sa_flow, carbon,
-                hydrogen, nitrogen, sulfur, ash, total_moisture, oxygen, surface_moisture, inherent_moisture]]
-        )
-        st.write('Besar hasil Unburn Carbon =', predict, '%')
-
 
 
 # create sidebar
@@ -15,10 +8,11 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 
 
 # My Profile
-if choice == 'Profile':
-    st.header("Welcome !!!!")
-    st.title("My Name is Muhyiddin Syarif")
-    st.image()
+if choice == 'Profile':#welcome
+    with st.container():
+        st.header("Helloo !!!!!")
+        st.title("my name is Muhyiddin Syarif")
+        st.write("I'm Data Science progammer from Indonesia")
 
 
 # Project
