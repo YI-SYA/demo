@@ -20,20 +20,27 @@ if choice == 'Profile':#welcome
     with st.container():
         st.write("")
     with st.container():
-        tab1, tab2 = st.tabs(["List of Project", "My Profile"])
-        with tab1:
+        tab, gambar = st.columns(2)
+        with tab:
+            tab1, tab2 = st.tabs(["List of Project", "My Profile"])
+            with tab1:
             st.header(':red[List of Project]')
             st.subheader('- Prediksi listrik yang dihasilkan PLTU')
             st.subheader('- Prediksi Nilai Unburn Carbon Batubara PLTU')
             st.subheader(' ')
             st.caption(':red[*klik pada side bar untuk melihat project]')
-        with tab2:
+            with tab2:
             st.header(':red[My Profile]')
             st.text('- Name   : Muhyiddin Syarif')
             st.text('- Sex    : Male')
             st.text('- Birth  : April 09, 2001')
             st.text('- Nation : Indonesia')
             st.text('- Status : Single')
+        with gambar:
+            st.image("https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=1060&t=st=1694832376~exp=1694832976~hmac=71108d0b0e08c88ca08d8cf38b5b6161cdbe8a0806c7faab045a81880dd61e69", use_column_width=None)
+        
+        
+        
         
 
     #contact container
