@@ -37,13 +37,11 @@ if choice == 'Profile':#welcome
                 st.text('- Nation : Indonesia')
                 st.text('- Status : Single')
         with gambar:
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.write(' ')
-            with col2:
-                st.image("https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=1060&t=st=1694832376~exp=1694832976~hmac=71108d0b0e08c88ca08d8cf38b5b6161cdbe8a0806c7faab045a81880dd61e69", use_column_width="auto")
-            with col3:
-                st.write(' ')
+            st.write(' ')
+            st.write(' ')
+            st.write(' ')
+            st.image("https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=1060&t=st=1694832376~exp=1694832976~hmac=71108d0b0e08c88ca08d8cf38b5b6161cdbe8a0806c7faab045a81880dd61e69", use_column_width="auto")
+
         
         
         
