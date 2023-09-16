@@ -14,7 +14,7 @@ st.info("My [Github](https://github.com/YI-SYA)")
 st.markdown("---")
 
 
-st.markdown("""
+st.write("""
 ## 📄 My Name is Muhyiddin Syarif
 
 
