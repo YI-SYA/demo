@@ -2,7 +2,7 @@ import streamlit as st
 
 #create sidebar
 menu = ['Profile','Project']
-choice = st.sidebar.slider("Select a Page", menu)
+choice = st.sidebar.selectbox("Select a Page", menu)
 
 
 #My Profile
