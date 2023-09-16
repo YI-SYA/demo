@@ -29,6 +29,11 @@ if choice == 'Profile':#welcome
             st.caption(':red[*klik pada side bar untuk melihat project]')
         with tab2:
             st.header(':red[My Profile]')
+            st.text('- Name   : Muhyiddin Syarif')
+            st.text('- Sex    : Male')
+            st.text('- Birth  : April 09, 2001')
+            st.text('- Nation : Indonesia')
+            st.text('- Status : Single')
         
 
     #contact container
