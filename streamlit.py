@@ -11,8 +11,8 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 if choice == 'Profile':#welcome
     with st.container():
         st.title("Helloo, Welcome to My Profile")
-        st.header("my name is _Muhyiddin Syarif_ :F39F5A", divider='rainbow')
-        st.header("I'm Data Science progammer from Indonesia")
+        st.header("my name is _Muhyiddin Syarif_ :F39F5A", )
+        st.write("I'm Data Science progammer from Indonesia")
     st.write("---")
     with st.container():
         st.image("https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=1060&t=st=1694832376~exp=1694832976~hmac=71108d0b0e08c88ca08d8cf38b5b6161cdbe8a0806c7faab045a81880dd61e69")
