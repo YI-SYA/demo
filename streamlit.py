@@ -11,7 +11,7 @@ choice = st.sidebar.selectbox("Select a Page", menu)
 if choice == 'Profile':#welcome
     with st.container():
         st.title("Helloo, Welcome to My Profile")
-        st.header("my name is _Muhyiddin Syarif_ :F39F5A", )
+        st.header("my name is  :F39F5A[_Muhyiddin Syarif_]", )
         st.write("I'm Data Science progammer from Indonesia")
     st.write("---")
     with st.container():
