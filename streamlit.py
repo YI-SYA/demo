@@ -74,6 +74,8 @@ if choice == 'Profile':#welcome
 # Project
 elif choice == 'Project':
     st.header("Prediksi Unburn Carbon Batubara PLTU")
+    st.write("---")
+    st.caption(':red[*Mean Absolute Error (MAE): 0.27]')
     model = pickle.load(open('unburn_model2.pkl', 'rb'))
 
     with st.container():
