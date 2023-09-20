@@ -72,7 +72,8 @@ if choice == 'Profile':#welcome
 
 # Project
 elif choice == 'Project':
-    st.header("Prediksi Unburn Carbon Batubara PLTU")\
+    st.header("Prediksi Unburn Carbon Batubara PLTU")
+    model = pickle.load(open('unburn_model2.pkl', 'rb'))
 
     with st.container():
         st.image("https://img.freepik.com/free-vector/industrial-factory-power-plant-illustration-facility-with-chimneys-producing-smoke-heavy-chemicals-global-warming-air-pollution-problem_575670-468.jpg?w=1060&t=st=1694833359~exp=1694833959~hmac=52b8bac1675c817649c0983bd16d9927994ba0dfa80022222b1de357954719fc")
